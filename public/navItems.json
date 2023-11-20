@@ -1,0 +1,469 @@
+[
+    {
+        "id": 1,
+        "title": "Dashboard",
+        "path": "/dashboard",
+        "icon": "/src/assets/icons/dashboard.png",
+        "cName": "nav-item",
+        "sName": "submenu-display"
+    },
+    {
+        "id": 2,
+        "title": "Sales & Purchase",
+        "path": "",
+        "icon": "/src/assets/icons/push-cart.png",
+        "cName": "nav-item",
+        "sName": "submenu-display",
+        "subMenu": [
+            {
+                "id": 2.1,
+                "title": "Sales",
+                "path": "",
+                "cName": "nav-item",
+                "sName": "submenu-display",
+                "subMenu": [
+                    {
+                        "id": 2.12,
+                        "title": "Add Sale",
+                        "path": "/dashboard/add-sale",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    },
+                    {
+                        "id": 2.13,
+                        "title": "Return List",
+                        "path": "/dashboard/return-list",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    }
+                ]
+            },
+            {
+                "id": 2.2,
+                "title": "Discount",
+                "path": "",
+                "cName": "nav-item",
+                "sName": "submenu-display",
+                "subMenu": [
+                    {
+                        "id": 2.21,
+                        "title": "Add Discount",
+                        "path": "",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    }
+                ]
+            },
+            {
+                "id": 2.3,
+                "title": "Gift Card",
+                "path": "",
+                "cName": "nav-item",
+                "sName": "submenu-display",
+                "subMenu": [
+                    {
+                        "id": 2.31,
+                        "title": "Gift Card List",
+                        "path": "",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    }
+                ]
+            },
+            {
+                "id": 2.4,
+                "title": "Coupon Card",
+                "path": "",
+                "cName": "nav-item",
+                "sName": "submenu-display",
+                "subMenu": [
+                    {
+                        "id": 2.41,
+                        "title": "Coupon List",
+                        "path": "",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    }
+                ]
+            },
+            {
+                "id": 2.5,
+                "title": "Draft",
+                "path": "",
+                "cName": "nav-item",
+                "sName": "submenu-display",
+                "subMenu": [
+                    {
+                        "id": 2.51,
+                        "title": "Draft List",
+                        "path": "",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    }
+                ]
+            },
+            {
+                "id": 2.6,
+                "title": "Purchase",
+                "path": "",
+                "cName": "nav-item",
+                "sName": "submenu-display",
+                "subMenu": [
+                    {
+                        "id": 2.61,
+                        "title": "Purchase List",
+                        "path": "/dashboard/purchase-list",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    },
+                    {
+                        "id": 2.62,
+                        "title": "Purchase Approve",
+                        "path": "",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    },
+                    {
+                        "id": 2.63,
+                        "title": "Purchase Add",
+                        "path": "/dashboard/purchase-add",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    },
+                    {
+                        "id": 2.64,
+                        "title": "Purchase TAX Add",
+                        "path": "/dashboard/purchase-tax",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    },
+                    {
+                        "id": 2.65,
+                        "title": "Purchase Status Add",
+                        "path": "/dashboard/purchase-status",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    },
+                    {
+                        "id": 2.66,
+                        "title": "Purchase Payment Due",
+                        "path": "",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Product Information",
+        "path": "",
+        "icon": "/src/assets/icons/shopping-cart.png",
+        "cName": "nav-item",
+        "sName": "submenu-display",
+        "subMenu": [
+            {
+                "id": 3.1,
+                "title": "Add Product",
+                "path": "/dashboard/add-product",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            },
+            {
+                "id": 3.2,
+                "title": "Product List",
+                "path": "/dashboard/product-list",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            },
+            {
+                "id": 3.3,
+                "title": "Category",
+                "path": "/dashboard/add-category",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            },
+            {
+                "id": 3.4,
+                "title": "Unit",
+                "path": "/dashboard/unit",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            },
+            {
+                "id": 3.5,
+                "title": "Add Income Tax",
+                "path": "/dashboard/add-income-tax",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            },
+            {
+                "id": 3.6,
+                "title": "Add Vat",
+                "path": "/dashboard/add-vat",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            },
+            {
+                "id": 3.7,
+                "title": "Selling TAX",
+                "path": "/dashboard/selling-tax",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            },
+            {
+                "id": 3.8,
+                "title": "Brand",
+                "path": "/dashboard/brand",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            },
+            {
+                "id": 3.9,
+                "title": "Add Supplier",
+                "path": "/dashboard/supplier",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            },
+            {
+                "id": 3.11,
+                "title": "Add Warehouse",
+                "path": "/dashboard/warehouse",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            },
+            {
+                "id": 3.13,
+                "title": "Business Location",
+                "path": "/dashboard/location",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            },
+            {
+                "id": 3.14,
+                "title": "Warrenties",
+                "path": "/dashboard/warrenty",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            },
+            {
+                "id": 3.15,
+                "title": "Stock",
+                "path": "",
+                "cName": "nav-item",
+                "sName": "submenu-display",
+                "subMenu": [
+                    {
+                        "id": 3.151,
+                        "title": "Total Stock",
+                        "path": "/dashboard/total-stock",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    },
+                    {
+                        "id": 3.152,
+                        "title": "Stock Sell Value",
+                        "path": "/dashboard/stock-sell-value",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Expences & Payments",
+        "path": "",
+        "icon": "/src/assets/icons/credit-card.png",
+        "cName": "nav-item",
+        "sName": "submenu-display",
+        "subMenu": [
+            {
+                "id": 4.1,
+                "title": "Add Bank",
+                "path": "/dashboard/add-bank",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            },
+            {
+                "id": 4.2,
+                "title": "Add Branch",
+                "path": "/dashboard/add-branch",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            },
+            {
+                "id": 4.3,
+                "title": "Account Type",
+                "path": "/dashboard/account-type",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            },
+            {
+                "id": 4.4,
+                "title": "Accounting",
+                "path": "",
+                "cName": "nav-item",
+                "sName": "submenu-display",
+                "subMenu": [
+                    {
+                        "id": 4.41,
+                        "title": "Accounting List",
+                        "path": "",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    },
+                    {
+                        "id": 4.42,
+                        "title": "Add Account",
+                        "path": "",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    },
+                    {
+                        "id": 4.43,
+                        "title": "Money Transfer",
+                        "path": "",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    }
+                ]
+            },
+            {
+                "id": 4.5,
+                "title": "Expences",
+                "path": "",
+                "cName": "nav-item",
+                "sName": "submenu-display",
+                "subMenu": [
+                    {
+                        "id": 4.51,
+                        "title": "Add Expences",
+                        "path": "",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    },
+                    {
+                        "id": 4.52,
+                        "title": "Expences List",
+                        "path": "",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    },
+                    {
+                        "id": 4.53,
+                        "title": "Expences Category",
+                        "path": "",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    }
+                ]
+            },
+            {
+                "id": 4.6,
+                "title": "Payments",
+                "path": "",
+                "cName": "nav-item",
+                "sName": "submenu-display",
+                "subMenu": [
+                    {
+                        "id": 4.61,
+                        "title": "Add Payment Method",
+                        "path": "/dashboard/payment-method",
+                        "cName": "nav-item",
+                        "sName": "submenu-display"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "HRM",
+        "path": "",
+        "icon": "/src/assets/icons/digital-business.png",
+        "cName": "nav-item",
+        "sName": "submenu-display",
+        "subMenu": [
+            {
+                "id": 5.1,
+                "title": "Add Staff User",
+                "path": "/dashboard/add-staff-user",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            },
+            {
+                "id": 5.2,
+                "title": "Staff User List",
+                "path": "/dashboard/staff-user-list",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Reports",
+        "path": "",
+        "icon": "/src/assets/icons/report.png",
+        "cName": "nav-item",
+        "sName": "submenu-display",
+        "subMenu": [
+            {
+                "id": 5.1,
+                "title": "Reports",
+                "path": "/dashboard/reports",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Settings & Customize",
+        "path": "",
+        "icon": "/src/assets/icons/settings.png",
+        "cName": "nav-item",
+        "sName": "submenu-display",
+        "subMenu": [
+            {
+                "id": 7.1,
+                "title": "User Profile",
+                "path": "/dashboard/user-profile",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            },
+            {
+                "id": 7.2,
+                "title": "Company Details",
+                "path": "/dashboard/company-details",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            },
+            {
+                "id": 7.3,
+                "title": "Shop Details",
+                "path": "/dashboard/shop-details",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            },
+            {
+                "id": 7.4,
+                "title": "General Setting",
+                "path": "/dashboard/general-setting",
+                "cName": "nav-item",
+                "sName": "submenu-display"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Backup",
+        "path": "",
+        "icon": "/src/assets/icons/cloud-backup-up-arrow.png",
+        "cName": "nav-item",
+        "sName": "submenu-display"
+    }
+]
